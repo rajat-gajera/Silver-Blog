@@ -1,0 +1,36 @@
+.blog-form {
+  width: fit-content;
+  height: fit-content;
+  width: 100%;
+  background-color: #f8f9fad8;
+  margin: 0 auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 150vh;
+  height: max-content;
+  align-content: center;
+  text-align: center;
+  padding: auto;
+}
+.form-div {
+  width: 100%;
+  border: none;
+}
+
+.input {
+  size: 100;
+  max-width: 1000px;
+  width: 100%;
+}
+.contenttextarea {
+  columns: 1000;
+  max-width: 1000px;
+  width: 100%;
+  min-height: 200px;
+}
+
+.button {
+  width: 100px;
+}

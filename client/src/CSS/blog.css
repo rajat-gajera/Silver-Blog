@@ -1,0 +1,35 @@
+.blog-card {
+  background-color: #f8f9fa;
+  margin: 0 auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100vh;
+}
+.blog-card:hover {
+  box-shadow: 2px 2px 4px 2px gray;
+  cursor: pointer;
+}
+.date {
+  font-size: small;
+  margin: 10px;
+  font-family: "Courier New", Courier, monospace;
+  color: brown;
+}
+.topic {
+  font-weight: bolder;
+  text-align: right;
+}
+
+.cursor {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fefefe;
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
