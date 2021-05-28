@@ -151,5 +151,15 @@ router.get("/user/:userid", async (req, res) => {
     res.status(500).json({ error: e });
   }
 });
-
+router.get("/blogbyuser/:userid", async (req, res) => {
+  const bid = req.params.userid;
+  console.log(bid);
+  try {
+    const result = await Blog.find({ author: bid });
+    res.status(201).json(result);
+  } catch (e) {
+    console.log(e);
+    res.status(500).json({ error: e });
+  }
+});
 module.exports = router;
