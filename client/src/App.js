@@ -20,7 +20,7 @@ const Routing = () => {
       <Route exact path="/">
         <Redirect from="/" to="/home"></Redirect>
       </Route>
-      <Route exact path="https://rajat-gajera.github.io/Silver-Blog/home">
+      <Route exact path="/home">
         <Home />
       </Route>
       <Route exact path="/about">
